@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function computerPlay() {
+            let computerChoice = Math.random();
+
+            if (computerChoice < 0.34) {
+                computerChoice = "Rock";
+            } else if (computerChoice <= 0.67) {
+                computerChoice = "Paper";
+            } else {
+                computerChoice = "Scissors";
+            }
+        
+            console.log(computerChoice);
+        
+        }
+
+        computerPlay()
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
